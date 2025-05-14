@@ -75,6 +75,7 @@ require("mini.surround").setup({})
 require("mini.completion").setup({})
 
 vim.lsp.enable("pyright")
+vim.lsp.enable("ruff")
 vim.lsp.enable("clangd")
 
 require("telescope").load_extension("fzf")
